@@ -16,4 +16,4 @@ tiffread2 or tiffread22 are written by
 
 I think I made some changes to tiffread2 or tiffread22. I don't remember.
 
-analyzeXYFrame_v3.m tries to do clustering.
+analyzeXYFrame_v3.m tries to do clustering by combining Voroinoi clustering and a modified version of DBScan based on the Voronoi clustering.
