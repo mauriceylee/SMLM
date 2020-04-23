@@ -6,6 +6,7 @@ NOTE: IT IS VERY MESSY!
 Contact me on Twitter @maurice_y_lee for more info or if you have any questions.
 
 The main code for converting single-molecule blinking movies to a table of parameters (much like ThunderSTORM) is in sPSF_SM_blinking_v34_forGithub.m
+It does not have multi-emitter fitting.
 
 tiffread2 or tiffread22 are not written by me!
 They are written by Francois Nedelec % nedelec (at) embl.de
