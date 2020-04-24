@@ -7,6 +7,15 @@ Contact me on Twitter @maurice_y_lee for more info or if you have any questions.
 
 The main code for converting single-molecule blinking movies to a table of parameters (much like ThunderSTORM) is in sPSF_SM_blinking_v34_forGithub.m. Do note that this code does not have multi-emitter fitting.
 
+--- HOW TO USE sPSF_SM_blinking_v34_forGithub.m ---
+1. Place all the scripts into the same folder
+2. The tif image files have to be cropped and concatenanted before using this MATLAB script
+3. Remember to have the dark counts saved too. This is a tif image file that is about 500 frames that the camera takes with the shutter closed with the exact exposure and gain settings with the same cropped area.
+4. When you click run at the top of the MATLAB window, the script will run.
+5. There will be a box that shows up to choose several parameters to tweak.
+6. The code will prompt you to import the dark counts
+7. The code will prmopt you to import the main tif files with the single-molecule blinking data
+
 tiffread2 or tiffread22 are not written by me!
 They are written by Francois Nedelec who is now at Cambridge University (francois.nedelec {a t} slcu {d ot} cam.ac.uk).
 
