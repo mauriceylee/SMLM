@@ -16,6 +16,8 @@ The main code for converting single-molecule blinking movies to a table of param
 6. The code will prompt you to import the dark counts
 7. The code will prmopt you to import the main tif files with the single-molecule blinking data
 
+---------------------------------------------------
+
 tiffread2 or tiffread22 are not written by me!
 They are written by Francois Nedelec who is now at Cambridge University (francois.nedelec {a t} slcu {d ot} cam.ac.uk).
 
